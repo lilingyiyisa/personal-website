@@ -1,0 +1,102 @@
+.main_container {
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  align-self: center;
+  position: relative;
+  overflow: hidden;
+
+  box-shadow: 0px 0px 4px black;
+  border-radius: 5px;
+}
+
+.long_container {
+  height: 100%;
+}
+
+.item {
+  height: 100%;
+  width: 200px;
+  float: left;
+}
+
+.see_previous,
+.see_next {
+  height: 100%;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+
+.see_next {
+  right: 0;
+  left: auto;
+}
+
+.arrow_next {
+  transform: rotate(180deg);
+}
+
+.arrow_previous,
+.arrow_next {
+  width: 100%;
+  align-self: center;
+}
+
+.see_previous:hover,
+.see_next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#one {
+  background-image: url("panda1.jpg");
+}
+
+#two{
+  background-image: url("panda2.jpg");
+}
+
+#three{
+  background-image: url("panda3.jpg");
+}
+
+#four{
+  background-image: url("panda4.jpg");
+}
+
+#five{
+  background-image: url("panda5.jpg");
+}
+
+#six{
+  background-image: url("panda6.jpg");
+}
+
+#seven{
+  background-image: url("panda7.jpg");
+}
+
+#eight{
+  background-image: url("panda8.jpg");
+}
+
+#nine{
+  background-image: url("panda9.jpg");
+}
